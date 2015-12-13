@@ -28,3 +28,6 @@ node_modules
 
 #Config must not be commited as it contains keys
 config.js
+
+.DS_Store
+
