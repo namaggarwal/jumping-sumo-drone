@@ -1,0 +1,31 @@
+{
+  "name": "jumping-sumo-drone",
+  "version": "0.0.1",
+  "description": "A socket enables website to voice control jumping sumo drone remotely",
+  "author": "Naman Aggarwal <naman.aggarwal@yahoo.com>",
+  "contributors": [{
+  }],
+  "scripts": {
+    "start": "node app.js"
+  },
+  "main": "app.js",
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/namaggarwal/jumping-sumo-drone.git"
+},
+  "bugs": {
+  "url": "https://github.com/namaggarwal/jumping-sumo-drone/issues"
+},
+  "keywords": [
+  "nodejitsu",
+  "example",
+  "browsenpm"
+],
+  "dependencies": {
+    "express": "4.13.3",
+    "node-sumo": "git+https://github.com/forgeByAcision/node-sumo",
+    "socket.io": "1.3.7"
+  },
+  "preferGlobal": false,
+  "license": "MIT"
+}
